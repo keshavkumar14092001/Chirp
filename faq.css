@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  background-color: #fbf8f3;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0px auto;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.websiteTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.websiteTitle a {
+  color: #1da1f2;
+}
+
+.navbarLinks {
+  display: flex;
+  align-items: center;
+}
+
+.navbarLinks li {
+  font-weight: 600;
+}
+
+.navbarLinks li a {
+  color: black;
+}
+
+.middleLi {
+  margin: 0px 50px;
+  color: black;
+}
+
+.navbarButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1da1f2;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbarButton img {
+  padding-right: 5px;
+}
+
+.navbarButton:hover {
+  cursor: pointer;
+  background-color: #005b93;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}

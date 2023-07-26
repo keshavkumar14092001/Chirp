@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/* #fbf8f3 */
+/* #d7f5f5 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar Section */
+
+.header {
+  background-color: #fbf8f3;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0px auto;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.websiteTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.websiteTitle a {
+  color: #1da1f2;
+}
+
+.navbarLinks {
+  display: flex;
+  align-items: center;
+}
+
+.navbarLinks li {
+  font-weight: 600;
+}
+
+.navbarLinks li a {
+  color: black;
+}
+
+.middleLi {
+  margin: 0px 50px;
+  color: black;
+}
+
+.navbarButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1da1f2;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbarButton img {
+  padding-right: 5px;
+}
+
+.navbarButton:hover {
+  cursor: pointer;
+  background-color: #005b93;
+}
+
+.hamburgur {
+  display: none;
+}
+
+/* Top Section */
+
+.top {
+  background-color: #fbf8f3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.topMainContainer {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+}
+
+.firstHalf {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.firstHalf h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.firstHalfP {
+  font-size: 20px;
+  padding: 25px 0;
+}
+
+.firstHalfMiddle {
+  display: flex;
+  align-items: center;
+}
+
+.firstHalfMiddle span {
+  color: #1da1f2;
+  padding-left: 10px;
+}
+
+.firstHalf .navbarButton {
+  width: 45%;
+}
+
+.secondHalf {
+  width: 50%;
+  padding: 150px;
+  background-image: url("./Assets/Hero\ Image\ \(Desktop\ View\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.secondHalf img {
+  width: 100%;
+}
+
+/* Middle Container */
+
+.middle {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.middleMainContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.middleMainContainer h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.middleCard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.middleCard h3 {
+  padding: 10px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* Second Middle */
+
+.secondMiddle {
+  background-color: #d7f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.secondMiddleContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.secondMiddleContainer h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 50px 0;
+}
+
+.secondMiddleCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondMiddleCard {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.firstLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user span {
+  padding-left: 5px;
+}
+
+.secondLine {
+  padding: 20px 5px;
+}
+
+.thirdLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes span {
+  padding-left: 5px;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.footerContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerContainer h1 {
+  color: #1da1f2;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footerContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerContainer div p {
+  padding-left: 20px;
+}
+
+.footerContainer div p:hover {
+  cursor: pointer;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 850px) {
+  .topMainContainer {
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .firstHalf {
+    width: 100%;
+  }
+
+  .secondHalf {
+    width: 100%;
+    background-image: url("Assets/Hero\ Image\ \(Tablet\ View\).png");
+  }
+
+  .secondMiddleCards {
+    flex-direction: column;
+  }
+
+  .secondMiddleCard {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .secondHalf {
+    width: 100%;
+    background-image: url("Assets/Hero\ Image\ \(Desktop\ View\).png");
+  }
+  .firstHalf h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .navbarLinks {
+    display: none;
+  }
+
+  .hamburgur {
+    display: block;
+  }
+
+  .firstHalfP {
+    font-size: 14px;
+    padding: 25px 0;
+  }
+  .firstHalfMiddle {
+    flex-direction: column;
+  }
+  .firstHalf .navbarButton {
+    margin-bottom: 5px;
+    width: 90%;
+  }
+  .middleMainContainer h1 {
+    font-size: 33px;
+  }
+  .gridContainer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .secondMiddleCard {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer {
+    padding: 15px;
+  }
+  .footerContainer {
+    width: 100%;
+  }
+}
