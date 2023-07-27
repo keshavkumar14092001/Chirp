@@ -25,6 +25,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .websiteTitle {
@@ -319,12 +320,27 @@
     width: 100%;
     background-image: url("Assets/Hero\ Image\ \(Desktop\ View\).png");
   }
+
   .firstHalf h1 {
     font-size: 30px;
     font-weight: bold;
   }
+
   .navbarLinks {
-    display: none;
+    position: absolute;
+    flex-direction: column;
+    background: #fbf8f3;
+    gap: 30px;
+    top: 100px;
+    right:-1000px;
+    padding: 40px;
+    transition: 0.3s;
+  }
+
+  .navbarLinks.active {
+    position: absolute;
+    right: 0px;
+    transition: 0.3s;
   }
 
   .hamburgur {
@@ -335,27 +351,34 @@
     font-size: 14px;
     padding: 25px 0;
   }
+
   .firstHalfMiddle {
     flex-direction: column;
   }
+
   .firstHalf .navbarButton {
     margin-bottom: 5px;
     width: 90%;
   }
+
   .middleMainContainer h1 {
     font-size: 33px;
   }
+
   .gridContainer {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
+
   .secondMiddleCard {
     width: 100%;
     margin-bottom: 20px;
   }
+
   .footer {
     padding: 15px;
   }
+
   .footerContainer {
     width: 100%;
   }
