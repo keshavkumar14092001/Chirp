@@ -316,6 +316,10 @@
 }
 
 @media (max-width: 500px) {
+  html,body {
+    overflow-x: hidden;
+  }
+
   .secondHalf {
     width: 100%;
     background-image: url("Assets/Hero\ Image\ \(Desktop\ View\).png");
@@ -332,7 +336,7 @@
     background: #fbf8f3;
     gap: 30px;
     top: 100px;
-    right:-1000px;
+    right: -1000px;
     padding: 40px;
     transition: 0.3s;
   }
